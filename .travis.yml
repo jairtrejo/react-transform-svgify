@@ -11,3 +11,4 @@ deploy:
   on:
     tags: true
     repo: jairtrejo/react-transform-svgify
+    node: 8.11.4

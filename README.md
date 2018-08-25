@@ -2,7 +2,7 @@ react-transform-svgify
 ======================
 
 [![Build Status](https://travis-ci.org/jairtrejo/react-transform-svgify.png?branch=v2.x)](https://travis-ci.org/jairtrejo/react-transform-svgify?branch=v2.x)
-[![Dependency Status](https://david-dm.org/jairtrejo.mx/react-transform-svgify/2.1.1.png)](http://david-dm.org/jairtrejo/react-transform-svgify/2.1.1)
+[![Dependency Status](https://david-dm.org/jairtrejo.mx/react-transform-svgify/2.1.2.png)](http://david-dm.org/jairtrejo/react-transform-svgify/2.1.2)
 [![NPM version](https://badge.fury.io/js/react-transform-svgify.png)](http://badge.fury.io/js/react-transform-svgify)
 
 Transform SVG files into React elements.

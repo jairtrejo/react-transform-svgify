@@ -6,7 +6,7 @@
         "type": "git",
         "url": "git://github.com/jairtrejo/react-transform-svgify.git"
     },
-    "version": "2.1.1",
+    "version": "2.1.2",
     "main": "lib",
     "license": "MIT",
     "private": false,
