@@ -1,5 +1,13 @@
 language: node_js
 node_js:
-  - "6.14.4"
-  - "8.11.4"
-  - "10.9.0"
+- 6.14.4
+- 8.11.4
+- 10.9.0
+deploy:
+  provider: npm
+  email: jair@jairtrejo.mx
+  api_key:
+    secure: JQySXnjdTBDEhHtKvZmfQQ+FYM6MUhLvKcV/Ho7+ThqTLJYhPnpE4Jfdnyc0UbanJsfc5bQjD3bO7s8Jlhab1Vs+iR9nB/n5mVUl+gdjK2297BsUWpKSCA07irKeA+Surfh5OghsPqiVGQRkXnY/YOnXPkn8XDzOrbAvaFB6WInKCxAvt6V1rFm4UoCr0XDmpXFEcRt+/xo3Tq0XxjkInrsQOipigNt2pYHk4F0HHpJ5vP/hcz977bb7PsQfOYNGbKBf4nGQChqIwWTPxUbp+yt+C0y7Ahq8d6aoc44gSGjKnNX4ospMe6Y+uADi2uKcUJO1MlLWGuLYrSRIKN5Tj2bazSLvQA7iISLUxq/kb/fS6cWugql87hXZDEKHEssMwkqXQpl+H1zM7rowzosY6wOTlYHnkLvJt6bIAD/3BaFovbchKe3KVv6dO829omOP/MmlK8qm/xCGX+pegIAjoZQFKXQsC0Zh6kZ6uQ06wEA2FY4omHBZlFaH4t8G8mPY3iEHMuftd+MUR/BqJJauDVux2u4bNexses3UdABqRPRGjo7CiS4WuPRQMCkkOBqJZehhi/jBndrUmNzAeQKW+F/xZ8i/GQrXeX0lBEo7FZFBIG+rskLOaepg/0YSayaahMq/JUO1/tbKu0amGXF0Of7JiocySBM5zSYAn4C6d5U=
+  on:
+    tags: true
+    repo: jairtrejo/react-transform-svgify
